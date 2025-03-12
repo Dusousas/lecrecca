@@ -17,8 +17,7 @@ export default function Newsletter() {
                                 <input 
                                     className="border-b-2 border-BrownC outline-none w-full py-2 px-4 pr-12"
                                     placeholder="Seu e-mail"
-                                    type="email"
-                                />
+                                    type="email"/>
                                 <button className="absolute right-2 top-1/2 transform cursor-pointer -translate-y-1/2 bg-BrownC text-white px-4 py-1 text-sm">
                                     Enviar
                                 </button>

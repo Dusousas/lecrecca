@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  --color-BrownC: #AF7B7F;
+  --color-BrownD: #6F5058;
+  --color-BlueC: #D0DADD;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.maxW {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+h1,
+h1,
+h3,
+h4,
+h5 {
+  font-family: "Poppins", sans-serif;
+}
+
+p,
+h6,
+li,
+a {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.bgMain2 {
+  background-image: url("/slides-1.jpg");
+  background-repeat: no-repeat;
+}
+
+.bgMain1 {
+  background-image: url("/slides-2.jpg");
+  background-repeat: no-repeat;
+}
+
+.bgName {
+  background-image: url("/aquarela.avif");
+  background-size: cover;
+  background-position: center;
+}
+
+.bgName1 {
+  background-image: url("/download.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bgAbout {
+  background-image: url("/line-shape.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.customH{
+  position: relative;
+  top: 150px;
+}
+
+.swiper-pagination-bullet {
+  position: relative;
+  bottom: 0px;
+  height: 40px !important;  /* Altura desejada */
+  width: 5px !important;   /* Largura estreita */
+  background-color: #AF7B7F !important;
+  border-radius: 10px 10px 10px 10px !important; /* Borda arredondada apenas no topo e fundo */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #6F5058 !important; /* Cor do bullet ativo */
+  height: 60px !important;  /* Altura desejada */
+
+}
